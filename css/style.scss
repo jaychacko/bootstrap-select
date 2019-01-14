@@ -1,0 +1,26 @@
+$icon-font: 'Ionicons';
+$primary: #d4272e;
+$white:#fff;
+.dnow-searchWizard-wrap {
+    .dropdown.bootstrap-select {
+        button.btn-light {
+            background-color: $white;
+            padding: 1rem;
+        }
+    }
+    .btn-primary {
+        padding: 1rem;
+    }
+    // .dropdown-toggle:after {
+    //     content: '\f123';
+    //     font-family: $icon-font;
+    //     color: #000;
+    //     position: absolute; 
+    //     right: 0; 
+    //     top: 18px;
+    //     z-index: 1;
+    //     width: 10%;
+    //     height: 100%; 
+    // }
+}
+

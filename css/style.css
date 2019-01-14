@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.dnow-searchWizard-wrap .dropdown.bootstrap-select button.btn-light {
+  background-color: #fff;
+  padding: 1rem;
+}
+.dnow-searchWizard-wrap .btn-primary {
+  padding: 1rem;
+}
+
+.dnow-searchWizard-wrap  select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+/* .dropdown-toggle::after {
+ display: none
+} */
+
+.dropdown-toggle::after {
+  font-family: "Ionicons";
+  display: inline-block;
+  content:'\f123';
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: .255em;
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
